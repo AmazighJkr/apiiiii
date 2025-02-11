@@ -126,7 +126,7 @@ def handle_sell_product(ws, data):
         )
 
         mysql.connection.commit()
-        ws.send(json.dumps({"sell_response": f"Sale successful, {balance}"}))
+        ws.send(json.dumps({"sell_response": f"Sale successful, {new_balance}"}))
 
     except Exception as e:
         ws.send(json.dumps({"sell_response": str(e)}))
