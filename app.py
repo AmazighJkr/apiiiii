@@ -13,9 +13,9 @@ sock = Sock(app)  # WebSocket setup
 
 # Database configuration (update with correct values)
 app.config["MYSQL_HOST"] = "sql7.freesqldatabase.com"
-app.config["MYSQL_USER"] = "sql7753033"
-app.config["MYSQL_PASSWORD"] = "BRNRDdUJuV"
-app.config["MYSQL_DB"] = "sql7753033"
+app.config["MYSQL_USER"] = "sql7762208"
+app.config["MYSQL_PASSWORD"] = "MqFJpHymhB"
+app.config["MYSQL_DB"] = "sql7762208"
 app.config["MYSQL_PORT"] = 3306
 
 from flask_mysqldb import MySQL
