@@ -12,11 +12,11 @@ CORS(app)  # Enable CORS for all routes
 sock = Sock(app)  # WebSocket setup
 
 # Database configuration (update with correct values)
-app.config["MYSQL_HOST"] = "sql7.freesqldatabase.com"
-app.config["MYSQL_USER"] = "sql7762208"
-app.config["MYSQL_PASSWORD"] = "MqFJpHymhB"
-app.config["MYSQL_DB"] = "sql7762208"
-app.config["MYSQL_PORT"] = 3306
+app.config["MYSQL_HOST"] = "db4free.net"  # Hostname for db4free
+app.config["MYSQL_USER"] = "vmmachine03"  # Use the username given by db4free
+app.config["MYSQL_PASSWORD"] = "vmmachine03"  # Use the password given by db4free
+app.config["MYSQL_DB"] = "vmmachine03"  # Use the database name given by db4free
+app.config["MYSQL_PORT"] = 3306  # Default MySQL port
 
 from flask_mysqldb import MySQL
 mysql = MySQL(app)
